@@ -1,2 +1,24 @@
-# Youtube-Video-Summarizer
-This project is a simple Streamlit web app that summarizes the content of a YouTube video using OpenAI's GPT-3.5 model. It extracts the video transcript, chunks it using LangChain, and generates a concise summary in the same language as the original video.
+# YouTube Video Summarizer
+
+This project is a simple Streamlit app that takes a YouTube video URL, fetches its transcript, splits it into chunks, and generates a summary using OpenAI GPT-3.5.
+
+## How to Run
+
+1. Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+2. Add your OpenAI API key to `app.py`:
+```python
+os.environ["OPENAI_API_KEY"] = "your-api-key"
+```
+
+3. Start the app:
+```
+streamlit run app.py
+```
+
+4. Paste a YouTube link and get the summary!
+
+Ensure the video has subtitles (closed captions).
