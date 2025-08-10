@@ -32,8 +32,8 @@ This project is a simple Streamlit web app that summarizes the content of a YouT
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/youtube-summarizer.git
-cd youtube-summarizer
+git clone https://https://github.com/SreejaGanne/Youtube-Video-Summarizer
+cd Youtube-Video-Summarizer
 ```
 
 2. Install dependencies:
